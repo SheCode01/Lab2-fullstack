@@ -1,0 +1,14 @@
+{
+  "name": "lab2-fullstack",
+  "version": "1.0.0",
+  "main": "index.js",
+"scripts": {
+  "dev": "concurrently \"npm run server\" \"npm run client\"",
+  "server": "nodemon server/index.js",
+  "client": "cd client && npm run dev"
+},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
