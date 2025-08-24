@@ -72,16 +72,3 @@ export default function App() {
   );
 }
 
-// import React from 'react';
-// import AssignmentTable from './AssignmentTable';
-
-// function App() {
-//   return (
-//     <div>
-//       <h1>Lab 2 Dashboard</h1>
-//       <AssignmentTable />
-//     </div>
-//   );
-// }
-
-// export default App;
