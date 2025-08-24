@@ -1,4 +1,3 @@
-// server/index.js
 const path = require('path');
 const express = require('express');
 const mongoose = require('mongoose');
@@ -46,7 +45,7 @@ async function start() {
     }
 
     mongoose.set('strictQuery', true);
-    await mongoose.connect(MONGO_URI, { dbName: 'lab2' });
+    await mongoose.connect(MONGO_URI);
 
     console.log('Connected to MongoDB');
     app.listen(PORT, () =>
